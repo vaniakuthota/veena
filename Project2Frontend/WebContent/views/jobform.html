@@ -1,0 +1,103 @@
+<style>
+body
+{
+background-image:url(resources/images/im.jpg)
+}
+</style>
+
+<span style="color:red">{{error.errorMessage}}</span>
+<div ng-show="user.role!='ADMIN'">Access denied..</div>
+<div ng-show="user.role=='ADMIN'">
+<form>
+<div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	          </div>
+		         <div class="col-md-4"><img src="resources/images/job.jpg" style="height:100px;width:100px">
+		             
+             </div>
+             <div class="col-md-4">
+          	          </div>
+		      </div>
+		 </div>
+<div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	         <label>Enter Job Title :</label> </div>
+		         <div class="col-md-8">
+		             <input type="text"  placeholder="Enter jon title" class="form-control" ng-model="job.jobTitle" style="margin-top:4px">
+             </div>
+		      </div>
+		 </div>
+
+		 <div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	         <label>Enter description</label> </div>
+		         <div class="col-md-8">
+		             <textarea  placeholder="Enter job description" class="form-control" ng-model="job.jobdescrption" style="margin-top:4px"></textarea>
+             </div>
+		      </div>
+		 </div>
+		 
+<div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	         <label>Enter Job Location :</label> </div>
+		         <div class="col-md-8">
+		             <input type="text"  placeholder="location" class="form-control" ng-model="job.location" style="margin-top:4px">
+             </div>
+		      </div>
+		 </div>
+<div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	         <label>Enter Salary  :</label> </div>
+		         <div class="col-md-8">
+		             <input type="text" name="fname" id="fname" placeholder="salary" class="form-control" ng-model="job.salary" style="margin-top:4px">
+             </div>
+		      </div>
+		 </div>
+		 <div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	         <label>Enter Skills Required  :</label> </div>
+		         <div class="col-md-8">
+		             <input type="text" name="fname" id="fname" placeholder="skills" class="form-control" ng-model="job.skillsRequired" style="margin-top:4px">
+             </div>
+		      </div>
+		 </div>
+		 <div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	         <label>Enter Years of Exp  :</label> </div>
+		         <div class="col-md-8">
+		             <input type="text" name="fname" id="fname" placeholder="experience" class="form-control" ng-model="job.yrsOfExp" style="margin-top:4px">
+             </div>
+		      </div>
+		 </div>
+		  <div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	         <label>Enter Company name  : </label> </div>
+		         <div class="col-md-8">
+		             <input type="text" name="fname" id="fname" placeholder="Comapny name" class="form-control" ng-model="job.companyName" style="margin-top:4px">
+             </div>
+		      </div>
+		 </div>
+		 <div class="col-lg-12">
+             <div class="row">
+			     <div class="col-md-4">
+          	          </div>
+		         <div class="col-md-4"><button class="btn btn-info" ng-click="addJob(job)" style="margin-top:4px">Add Job</button>
+		             
+             </div>
+             <div class="col-md-4">
+          	          </div>
+		      </div>
+		 </div>
+		 
+
+
+</form>
+</div>

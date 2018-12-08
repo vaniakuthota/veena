@@ -1,0 +1,17 @@
+com\niit\Dao\JobDaoImpl.class
+com\niit\Dao\NotificationDao.class
+com\niit\Dao\JobDao.class
+com\niit\Models\ErrorClazz.class
+com\niit\Models\job.class
+com\niit\Dao\BlogPostDao.class
+com\niit\Models\User.class
+com\niit\Dao\NotificationDaoImpl.class
+com\niit\Configuration\WebAppIntializer.class
+com\niit\Dao\UserDao.class
+com\niit\Project2Backend\App.class
+com\niit\Configuration\WebConfigure.class
+com\niit\Configuration\DBConfiguration.class
+com\niit\Models\Notification.class
+com\niit\Dao\UserDaoImpl.class
+com\niit\Dao\BlogPostImpl.class
+com\niit\Models\BlogPost.class
